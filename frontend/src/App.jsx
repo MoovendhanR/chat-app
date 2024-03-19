@@ -1,13 +1,14 @@
 
 import './App.css'
-import Home from './pages/home/Home'
-
+import AllRoutes from './components/routes/AllRoutes';
+import {Toaster} from "react-hot-toast";
 
 function App() {
 
   return (
     <div className='p-4 h-screen flex items-center justify-center'>
-   <Home/>   
+      <AllRoutes/>
+      <Toaster/>
     </div>
   )
 }
